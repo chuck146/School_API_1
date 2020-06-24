@@ -1,0 +1,8 @@
+C:\Users\smora\Documents\School_API_1\School_API_24\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\smora\Documents\School_API_1\School_API_24\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\smora\Documents\School_API_1\School_API_24\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+C:\Users\smora\Documents\School_API_1\School_API_24\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\smora\Documents\School_API_1\School_API_24\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\smora\Documents\School_API_1\School_API_24\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\smora\Documents\School_API_1\School_API_24\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\smora\Documents\School_API_1\School_API_24\Entities\obj\Debug\netcoreapp3.1\Entities.pdb

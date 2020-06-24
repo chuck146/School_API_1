@@ -7,3 +7,6 @@ C:\Users\smora\Documents\School_API_1\School_API_24\Contracts\obj\Debug\netcorea
 C:\Users\smora\Documents\School_API_1\School_API_24\Contracts\obj\Debug\netcoreapp3.1\Contracts.csproj.CoreCompileInputs.cache
 C:\Users\smora\Documents\School_API_1\School_API_24\Contracts\obj\Debug\netcoreapp3.1\Contracts.dll
 C:\Users\smora\Documents\School_API_1\School_API_24\Contracts\obj\Debug\netcoreapp3.1\Contracts.pdb
+C:\Users\smora\Documents\School_API_1\School_API_24\Contracts\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\smora\Documents\School_API_1\School_API_24\Contracts\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\smora\Documents\School_API_1\School_API_24\Contracts\obj\Debug\netcoreapp3.1\Contracts.csproj.CopyComplete

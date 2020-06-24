@@ -10,3 +10,5 @@ C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\obj\Debug\netc
 C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.dll
 C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.pdb
 C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\bin\Debug\netcoreapp3.1\Entities.pdb
