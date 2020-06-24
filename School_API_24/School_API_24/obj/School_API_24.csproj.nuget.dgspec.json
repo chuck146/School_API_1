@@ -103,12 +103,6 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.5, )"
             }
           },
           "imports": [
@@ -232,9 +226,6 @@
               },
               "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\Entities\\Entities.csproj"
-              },
-              "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\LoggerManager\\LoggerService.csproj": {
-                "projectPath": "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\LoggerManager\\LoggerService.csproj"
               },
               "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\LoggerService\\LoggerService.csproj": {
                 "projectPath": "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\LoggerService\\LoggerService.csproj"

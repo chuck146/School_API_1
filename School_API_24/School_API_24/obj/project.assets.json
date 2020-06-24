@@ -5128,7 +5128,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\LoggerManager\\LoggerService.csproj",
       "Contracts >= 1.0.0",
       "Entities >= 1.0.0",
       "LoggerService >= 1.0.0",
@@ -5167,9 +5166,6 @@
             },
             "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\Entities\\Entities.csproj"
-            },
-            "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\LoggerManager\\LoggerService.csproj": {
-              "projectPath": "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\LoggerManager\\LoggerService.csproj"
             },
             "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\LoggerService\\LoggerService.csproj": {
               "projectPath": "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\LoggerService\\LoggerService.csproj"
@@ -5224,16 +5220,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\LoggerManager\\LoggerService.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\LoggerManager\\LoggerService.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

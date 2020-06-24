@@ -24,7 +24,6 @@ C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netc
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.pdb
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.genruntimeconfig.cache
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\nlog.config
-C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\appsettings.Production.json
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\NLog.dll
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
@@ -61,3 +60,4 @@ C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netc
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Entities.dll
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

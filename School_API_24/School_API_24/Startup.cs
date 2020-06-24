@@ -34,7 +34,7 @@ namespace School_API_24
             services.ConfigureCors();
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
-            services.AddControllers();
+            services.ConfigureSqlContext(Configuration);
             services.AddControllers();
         }
 
