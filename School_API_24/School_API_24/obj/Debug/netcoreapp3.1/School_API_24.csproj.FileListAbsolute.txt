@@ -23,3 +23,7 @@ C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netc
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.dll
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.pdb
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.genruntimeconfig.cache
+C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\nlog.config
+C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\appsettings.Production.json
+C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
