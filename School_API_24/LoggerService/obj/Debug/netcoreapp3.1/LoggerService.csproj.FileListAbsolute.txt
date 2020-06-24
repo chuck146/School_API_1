@@ -1,0 +1,12 @@
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.deps.json
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.dll
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.pdb
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\bin\Debug\netcoreapp3.1\Contracts.dll
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\bin\Debug\netcoreapp3.1\Contracts.pdb
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csprojAssemblyReference.cache
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfoInputs.cache
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfo.cs
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CopyComplete
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.dll
+C:\Users\smora\Documents\School_API_1\School_API_24\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.pdb
