@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ATxHDJ27g46ef2T1IktGERKEA+ffh9xXeZLAGz2IWcMKKjWABH7ht+o4CNfKV5BLyUkohbst/2Q1qAYJ+krChA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\School_API_24\\School_API_24.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\smora\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
