@@ -1,15 +1,13 @@
 ﻿using Contracts;
 using Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace Repository
 {
     public class RepositoryManager : IRepositoryManager
     {
         private RepositoryContext _repositoryContext;
-        private IOrganization _organizationRepository;
+        private IOrganizationRepository _organizationRepository;
         private IUserRepository _userRepository;
 
         public RepositoryManager(RepositoryContext repositoryContext)
@@ -23,8 +21,9 @@ namespace Repository
             {
                 if (_organizationRepository == null)
                     _organizationRepository = new OrganizationRepository(_repositoryContext);
-
+               
                 return _organizationRepository;
+                
             }
         }
 

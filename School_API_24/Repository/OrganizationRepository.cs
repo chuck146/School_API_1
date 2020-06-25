@@ -13,11 +13,7 @@ namespace Repository
         public OrganizationRepository(RepositoryContext repositoryContext)
             : base(repositoryContext)
         {
-
         }
-        public IEnumerable<Organization> GetAllOrganizations(bool trackChanges) =>
-            FindAll(trackChanges)
-            .OrderBy(c => c.Name)
-            .ToList();
+        
     }
 }
