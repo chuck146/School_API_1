@@ -12,12 +12,30 @@ namespace School_API_24.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        private readonly IRepositoryManager _repository;
         private ILoggerManager _logger;
+
+        public WeatherForecastController(IRepositoryManager repository)
+        {
+            _repository = repository;
+        }
+
+        /*[HttpGet]
+        public ActionResult<IEnumerable<string>> Get()
+        {
+            //inject methods here
+           // _repository.Organization.AnyMethodFromOrganizationRepository();
+            // _repository.User.AnyMethodFromUserRepository();
+
+            return new string[] { "value1", "value2"};
+        }*/
+
 
         public WeatherForecastController(ILoggerManager logger)
         {
             _logger = logger;
         }
+
 
         [HttpGet]
         public IEnumerable<string> Get()

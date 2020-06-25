@@ -9,6 +9,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Repository;
+
 
 namespace School_API_24.Extensions
 {
@@ -37,6 +39,9 @@ namespace School_API_24.Extensions
             services.Configure<IISOptions>(options =>
             {
             });
+
+        public static void ConfigureRepositoryManager(this IServiceCollection services) =>
+            services.AddScoped<IRepositoryManager, RepositoryManager>();
 
         
     }

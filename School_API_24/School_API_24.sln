@@ -14,7 +14,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Cont
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{62F49647-F925-45D1-AEF6-0E5723388C19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{1A59CA17-FCFC-4483-B005-835242FEAFD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{1A59CA17-FCFC-4483-B005-835242FEAFD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{14A16D68-42C4-466E-8E0A-ECD7EB1A5CAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{1A59CA17-FCFC-4483-B005-835242FEAFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A59CA17-FCFC-4483-B005-835242FEAFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A59CA17-FCFC-4483-B005-835242FEAFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A16D68-42C4-466E-8E0A-ECD7EB1A5CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A16D68-42C4-466E-8E0A-ECD7EB1A5CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A16D68-42C4-466E-8E0A-ECD7EB1A5CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A16D68-42C4-466E-8E0A-ECD7EB1A5CAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
