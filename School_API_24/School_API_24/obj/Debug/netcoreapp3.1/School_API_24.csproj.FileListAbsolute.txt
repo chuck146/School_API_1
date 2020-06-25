@@ -61,3 +61,5 @@ C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netc
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Entities.dll
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Repository.pdb
