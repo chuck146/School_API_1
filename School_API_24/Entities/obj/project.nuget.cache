@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6b0WZZqGC/rOrBs84XxPjqZG7FwmEbD17pVhhvLStPRNAGkjT7GfMCB3PoZchUeXWeppBcgtKMHFWZjZkDG9Iw==",
+  "dgSpecHash": "30tnbK5keehx+SmijfU0JgFV4hDssEORfUhFpeRqFCfhMaN/Drr2GqOoR+i37eQK6KsD2NLQuzqISfth5lbpkA==",
   "success": true,
   "projectFilePath": "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\smora\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\microsoft.extensions.options\\3.1.5\\microsoft.extensions.options.3.1.5.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512",
+    "C:\\Users\\smora\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"

@@ -6,4 +6,3 @@ C:\Users\smora\Documents\School_API_1\School_API_24\Entities\obj\Debug\netcoreap
 C:\Users\smora\Documents\School_API_1\School_API_24\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\smora\Documents\School_API_1\School_API_24\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 C:\Users\smora\Documents\School_API_1\School_API_24\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
-C:\Users\smora\Documents\School_API_1\School_API_24\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache

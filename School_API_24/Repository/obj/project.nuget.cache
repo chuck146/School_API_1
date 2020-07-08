@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TMxtMPyq9IGIBT+EObYUJW7NvzqjKhi/N3dQwmx2+wABkwnehuRI9sfqPgj6kboZ/cT7YIjotyo7Z4899tdpMA==",
+  "dgSpecHash": "sfnIjztBBTHvzFpWxnVhsNrQQIsLpl9si7zM5bqo2PKjIRpUgELYYKUFbpTynXF8QCxiWJQmKpbdaT7Te8IbTQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\smora\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\microsoft.extensions.options\\3.1.5\\microsoft.extensions.options.3.1.5.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512",
+    "C:\\Users\\smora\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\nlog\\4.7.2\\nlog.4.7.2.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\nlog.extensions.logging\\1.6.4\\nlog.extensions.logging.1.6.4.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
