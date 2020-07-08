@@ -14,8 +14,6 @@ C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netc
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.csprojAssemblyReference.cache
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.AssemblyInfoInputs.cache
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.AssemblyInfo.cs
-C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.csproj.CoreCompileInputs.cache
-C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.RazorTargetAssemblyInfo.cache
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.csproj.CopyComplete
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\staticwebassets\School_API_24.StaticWebAssets.Manifest.cache

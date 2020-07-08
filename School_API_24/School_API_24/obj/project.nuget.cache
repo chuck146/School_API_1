@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xSTjpuvDgQ7y1JyhT1XVxfNFE9aMkck+IlMtsyBGJ06dxxGbsMTal1oGZ2pb6Xql4VSfDIOwY911nXYE4pCGVw==",
+  "dgSpecHash": "Gc1NdgcaDKuntev3fifdxWXWf/VMDQL4rO3CkC99gW94kXmzGNEb9CSUsCy5vsol1jHMebZn9Oe2fgLKCPg2qA==",
   "success": true,
   "projectFilePath": "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\School_API_24\\School_API_24.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\smora\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\smora\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
