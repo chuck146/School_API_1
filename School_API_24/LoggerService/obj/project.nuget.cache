@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dn7rW4jj2bl+FWIzRm+5vMAEcpXWvxmEyrThw5FLFUCzAJr9L7CtkAfVIwEVY/P9Uu4nkZvKaCeejpQ560RqVw==",
+  "dgSpecHash": "pcShl6XHj3VCnuoPz8VbmvGw9xp9rF0C+uVonAWAq+TppjqK8dInl+gwcIG96LNkAN2U2ivgEmoV6Z6GnPBYeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\smora\\Documents\\School_API_1\\School_API_24\\LoggerService\\LoggerService.csproj",
   "expectedPackageFiles": [
@@ -24,8 +24,7 @@
     "C:\\Users\\smora\\.nuget\\packages\\nlog.extensions.logging\\1.6.4\\nlog.extensions.logging.1.6.4.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\smora\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\smora\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
-    "C:\\Users\\smora\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\smora\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
