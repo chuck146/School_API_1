@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Contracts;
+using Entities.DataTransferObjects;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,7 +28,14 @@ namespace School_API_24.Controllers
             try
             {
                 var organizations = _repository.Organization.GetAllOrganizations(trackChanges: false);
-                return Ok(organizations);
+                var organizationsDto = organizations.Select(c => new OrganizationDto
+                {
+                    Id = c.Id,
+                    Name = c.Name,
+                    FullAddress = string.Join(", ", c.Address, c.Country)
+                }).ToList();
+
+                return Ok(organizationsDto);
             }
             catch (Exception ex)
             {
