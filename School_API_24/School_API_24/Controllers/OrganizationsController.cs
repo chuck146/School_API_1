@@ -28,18 +28,25 @@ namespace School_API_24.Controllers
         [HttpGet]
         public IActionResult GetOrganizations()
         {
-            try
+            var organizations = _repository.Organization.GetAllOrganizations(trackChanges: false);
+            var organizationsDto = _mapper.Map<IEnumerable<OrganizationDto>>(organizations);
+            return Ok(organizationsDto);
+            throw new Exception("Exception");
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetOrganization(Guid id)
+        {
+            var organization = _repository.Organization.GetOrganization(id, trackChanges: false);
+            if (organization == null)
             {
-                var organizations = _repository.Organization.GetAllOrganizations(trackChanges: false);
-                var organizationsDto = _mapper.Map<IEnumerable<OrganizationDto>>(organizations);
-                {
-                    return Ok(organizationsDto);
-                }
+                _logger.LogInfo($"Organization with id: {id} doesn't exist in the database.");
+                return NotFound();
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogError($"Something went wrong in the {nameof(GetOrganizations)} action {ex}");
-                return StatusCode(500, "Internal server error");
+                var organizationDto = _mapper.Map<OrganizationDto>(organization);
+                return Ok(organizationDto);
             }
         }
     }

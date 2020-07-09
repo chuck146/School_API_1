@@ -19,6 +19,8 @@ namespace Repository
             .OrderBy(c => c.Name)
             .ToList();
 
-        
+        public Organization GetOrganization(Guid organizationId, bool trackChanges) =>
+            FindByCondition(c => c.Id.Equals(organizationId), trackChanges)
+            .SingleOrDefault();
     }
 }
