@@ -15,6 +15,8 @@ namespace School_API_24
             CreateMap<Organization, OrganizationDto>()
                 .ForMember(c => c.FullAddress,
                 opt => opt.MapFrom(x => string.Join(", ", x.Address, x.Country)));
+
+            CreateMap<User, UserDto>();
         }
     }
 }
