@@ -22,5 +22,16 @@ namespace Repository
         public Organization GetOrganization(Guid organizationId, bool trackChanges) =>
             FindByCondition(c => c.Id.Equals(organizationId), trackChanges)
             .SingleOrDefault();
+
+        public void CreateOrganization(Organization organization) => Create(organization);
+
+        public IEnumerable<Organization> GetByIds(IEnumerable<Guid> ids, bool trackChanges) =>
+            FindByCondition(x => ids.Contains(x.Id), trackChanges)
+            .ToList();
+
+        public void DeleteOrganization(Organization organization)
+        {
+            Delete(organization);
+        }
     }
 }

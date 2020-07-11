@@ -9,6 +9,9 @@ namespace Contracts
     {
         IEnumerable<Organization> GetAllOrganizations(bool trackChanges);
         Organization GetOrganization(Guid organizationId, bool trackChanges);
-        
+        void CreateOrganization(Organization organization);
+
+        IEnumerable<Organization> GetByIds(IEnumerable<Guid> ids, bool trackChanges);
+        void DeleteOrganization(Organization organization);
     }
 }

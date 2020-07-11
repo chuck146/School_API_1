@@ -17,6 +17,14 @@ namespace School_API_24
                 opt => opt.MapFrom(x => string.Join(", ", x.Address, x.Country)));
 
             CreateMap<User, UserDto>();
+
+            CreateMap<OrganizationForCreationDto, Organization>();
+
+            CreateMap<UserForCreationDto, User>();
+
+            CreateMap<UserForUpdateDto, User>();
+
+            CreateMap<UserForUpdateDto, User>().ReverseMap();
         }
     }
 }
