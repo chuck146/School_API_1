@@ -66,3 +66,7 @@ C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netc
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Polly.dll
 C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.csproj.CoreCompileInputs.cache
+C:\Users\smora\Documents\School_API_1\School_API_24\School_API_24\obj\Debug\netcoreapp3.1\School_API_24.MvcApplicationPartsAssemblyInfo.cache

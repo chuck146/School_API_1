@@ -9,6 +9,7 @@ using Entities.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace School_API_24.Controllers
 {
@@ -74,6 +75,13 @@ namespace School_API_24.Controllers
                     _logger.LogError("UserForCreationDto object sent from client is null.");
                     return BadRequest("UserForCreationDto object is null");
                 }
+
+                if(!ModelState.IsValid)
+                {
+                    _logger.LogError("Invalid model state for the UserForCreationDto object");
+                    return UnprocessableEntity(ModelState);
+                }
+
                 var organization = _repository.Organization.GetOrganization(organizationId, trackChanges: false);
                 if (organization == null)
                 {
