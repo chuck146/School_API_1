@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Repository;
-
+using Microsoft.OpenApi.Models;
 
 namespace School_API_24.Extensions
 {
@@ -43,7 +43,18 @@ namespace School_API_24.Extensions
         public static void ConfigureRepositoryManager(this IServiceCollection services) =>
             services.AddScoped<IRepositoryManager, RepositoryManager>();
 
-        
+        public static void ConfigureSwagger(this IServiceCollection services)
+        {
+            services.AddSwaggerGen(s =>
+            {
+                s.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "School API",
+                    Version = "v1"
+                });
+            });
+
+        }
     }
 
     
