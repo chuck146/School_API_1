@@ -110,6 +110,12 @@ namespace School_API_24.Controllers
                 return BadRequest("UserForUpdateDto object is null");
             }
 
+            if(!ModelState.IsValid)
+            {
+                _logger.LogError("Invalid model state for the UserForUpdateDto object");
+                return UnprocessableEntity(ModelState);
+            }
+
             var organization = _repository.Organization.GetOrganization(organizationId, trackChanges: false);
             if(organization == null)
             {
@@ -153,7 +159,15 @@ namespace School_API_24.Controllers
                 return NotFound();
             }
             var userToPatch = _mapper.Map<UserForUpdateDto>(userEntity);
-            patchDoc.ApplyTo(userToPatch);
+            patchDoc.ApplyTo(userToPatch, ModelState);
+
+            TryValidateModel(userToPatch);
+
+            if(!ModelState.IsValid)
+            {
+                _logger.LogError("Invalid model state for the patch document");
+                return UnprocessableEntity(ModelState);
+            }
             _mapper.Map(userToPatch, userEntity);
             _repository.Save();
             return NoContent();
