@@ -38,7 +38,6 @@ namespace School_API_24
             services.ConfigureLoggerService();
             services.ConfigureSqlContext(Configuration);
             services.ConfigureRepositoryManager();
-            services.AddControllers();
             services.AddAutoMapper(typeof(Startup));
 
             services.AddControllers(config =>
@@ -51,6 +50,8 @@ namespace School_API_24
             {
                 options.SuppressModelStateInvalidFilter = true;
             });
+            services.ConfigureSwagger();
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -64,7 +65,11 @@ namespace School_API_24
             {
                 app.UseHsts();
             }
-
+            app.UseSwagger();
+            app.UseSwaggerUI(s =>
+            {
+                s.SwaggerEndpoint("/swagger/v1/swagger.json", "School API v1");
+            });
             app.ConfigureExceptionHandler(logger);
             app.UseHttpsRedirection();
             app.UseStaticFiles();

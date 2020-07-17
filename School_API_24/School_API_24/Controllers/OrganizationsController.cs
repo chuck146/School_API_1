@@ -13,8 +13,9 @@ using School_API_24.ModelBinders;
 
 namespace School_API_24.Controllers
 {
-    [Route("api/organizations")]
+    [Route("api/v1/organizations")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "v1", IgnoreApi = true)]
     public class OrganizationsController : ControllerBase
     {
         private readonly IRepositoryManager _repository;
